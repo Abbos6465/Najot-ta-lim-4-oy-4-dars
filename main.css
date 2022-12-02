@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container{
+  width: 1300px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.nav-logo{
+  font-size: 25px;
+}
+
+.nav__ul{
+  color: white;
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+  margin-left: 150px;
+}
+
+.nav__ul--list-item{
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+}
+
+.bg{
+  background-color: #3737ff;
+  padding: 20px;
+  color: white;
+}
+
+.menu{
+  display: flex;
+  gap: 15px;
+  justify-self: end;
+}
+
+.form-select{
+  width: 100px;
+  text-transform: uppercase;
+  padding: 10px; 
+}
